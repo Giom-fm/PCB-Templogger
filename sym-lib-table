@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name mcp2221)(type Legacy)(uri ${KIPRJMOD}/libraries/mcp2221.lib)(options "")(descr ""))
+  (lib (name sc_39_11_rt)(type Legacy)(uri ${KIPRJMOD}/libraries/sc_39_11_rt.lib)(options "")(descr ""))
+)

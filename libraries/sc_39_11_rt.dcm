@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SC39-11GWA
+D Single digit 7 segment display, green, common cathode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11gwa.pdf
+$ENDCMP
+#
+$CMP SC39-11SRWA
+D Single digit 7 segment display, super bright red, common cathode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11srwa.pdf
+$ENDCMP
+#
+$CMP SC39-11YWA
+D Single digit 7 segment display, yellow, common cathode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11ywa.pdf
+$ENDCMP
+#
+$CMP SC39_11_RT
+D Single digit 7 segment display, high efficiency red, common cathode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11ewa.pdf
+$ENDCMP
+#
+#End Doc Library
