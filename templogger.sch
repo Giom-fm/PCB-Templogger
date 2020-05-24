@@ -283,15 +283,11 @@ Wire Wire Line
 	6100 5000 6500 5000
 Wire Wire Line
 	6100 5100 6500 5100
-Wire Wire Line
-	6100 5200 6500 5200
-Wire Wire Line
-	6100 5300 6500 5300
-Text GLabel 6500 5300 2    50   Input ~ 0
+Text GLabel 6100 5900 2    50   Input ~ 0
 Seg_DP
-Text GLabel 6500 5200 2    50   Input ~ 0
+Text GLabel 6100 6000 2    50   Input ~ 0
 Seg_2
-Text GLabel 6500 5100 2    50   Input ~ 0
+Text GLabel 6100 5600 2    50   Input ~ 0
 ADC
 Text GLabel 6500 5000 2    50   Input ~ 0
 LED
@@ -648,10 +644,10 @@ DAT
 Text GLabel 4500 5600 0    50   Input ~ 0
 Seg_F
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0118
 U 1 1 5EC8A53C
 P 4500 3100
-F 0 "#PWR?" H 4500 2850 50  0001 C CNN
+F 0 "#PWR0118" H 4500 2850 50  0001 C CNN
 F 1 "GND" H 4505 2927 50  0000 C CNN
 F 2 "" H 4500 3100 50  0001 C CNN
 F 3 "" H 4500 3100 50  0001 C CNN
