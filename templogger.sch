@@ -279,20 +279,12 @@ Wire Wire Line
 	6100 4800 6500 4800
 Wire Wire Line
 	6100 4900 6500 4900
-Wire Wire Line
-	6100 5000 6500 5000
-Wire Wire Line
-	6100 5100 6500 5100
-Text GLabel 6100 5900 2    50   Input ~ 0
+Text GLabel 6500 4900 2    50   Input ~ 0
 Seg_DP
-Text GLabel 6100 6000 2    50   Input ~ 0
+Text GLabel 6100 5300 2    50   Input ~ 0
 Seg_2
 Text GLabel 6100 5600 2    50   Input ~ 0
 ADC
-Text GLabel 6500 5000 2    50   Input ~ 0
-LED
-Text GLabel 6500 4900 2    50   Input ~ 0
-Seg_D
 Text GLabel 6500 4800 2    50   Input ~ 0
 Seg_C
 Text GLabel 6500 4700 2    50   Input ~ 0
@@ -421,28 +413,6 @@ Wire Wire Line
 	9950 1900 10100 1900
 Text GLabel 10100 1900 2    50   Input ~ 0
 ADC
-$Comp
-L sc_39_11_rt:SC_39_11_RT U6
-U 1 1 5EC43A7E
-P 1950 5250
-F 0 "U6" H 1975 5250 50  0001 L CNN
-F 1 "SC_39_11_RT" H 1975 5205 50  0001 L CNN
-F 2 "" H 1950 5250 50  0001 C CNN
-F 3 "" H 1950 5250 50  0001 C CNN
-	1    1950 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L sc_39_11_rt:SC39_11_RT U4
-U 1 1 5EC46DC7
-P 1600 5450
-F 0 "U4" H 1600 6117 50  0000 C CNN
-F 1 "SC39_11_RT" H 1600 6026 50  0000 C CNN
-F 2 "My Footprints:SC39-11_RT_small" H 1600 4900 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11ewa.pdf" H 1600 5450 50  0001 C CNN
-	1    1600 5450
-	1    0    0    -1  
-$EndComp
 Text GLabel 1300 5550 0    50   Input ~ 0
 Seg_E
 Text GLabel 1300 5250 0    50   Input ~ 0
@@ -485,28 +455,6 @@ F 3 "~" H 1750 6200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 6200 1550 6200
-$Comp
-L sc_39_11_rt:SC_39_11_RT U7
-U 1 1 5EC9870E
-P 3350 5250
-F 0 "U7" H 3375 5250 50  0001 L CNN
-F 1 "SC_39_11_RT" H 3375 5205 50  0001 L CNN
-F 2 "" H 3350 5250 50  0001 C CNN
-F 3 "" H 3350 5250 50  0001 C CNN
-	1    3350 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L sc_39_11_rt:SC39_11_RT U5
-U 1 1 5EC98714
-P 3000 5450
-F 0 "U5" H 3000 6117 50  0000 C CNN
-F 1 "SC39_11_RT" H 3000 6026 50  0000 C CNN
-F 2 "My Footprints:SC39-11_RT_small" H 3000 4900 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11ewa.pdf" H 3000 5450 50  0001 C CNN
-	1    3000 5450
-	1    0    0    -1  
-$EndComp
 Text GLabel 2700 5550 0    50   Input ~ 0
 Seg_E
 Text GLabel 2700 5250 0    50   Input ~ 0
@@ -557,17 +505,6 @@ Text GLabel 2750 7000 0    50   Input ~ 0
 LED
 Wire Wire Line
 	2750 7000 3000 7000
-$Comp
-L Device:R R2
-U 1 1 5ECB072C
-P 3150 7000
-F 0 "R2" V 3220 7046 50  0000 C TNN
-F 1 "330Ω" V 3220 6955 50  0000 C BNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3080 7000 50  0001 C CNN
-F 3 "~" H 3150 7000 50  0001 C CNN
-	1    3150 7000
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:LED D2
 U 1 1 5ECB1CCD
@@ -654,4 +591,41 @@ F 3 "" H 4500 3100 50  0001 C CNN
 	1    4500 3100
 	1    0    0    -1  
 $EndComp
+$Comp
+L sc_39_11_rt:SC39_11_RT U5
+U 1 1 5EC98714
+P 3000 5450
+F 0 "U5" H 3000 6117 50  0000 C CNN
+F 1 "SC39_11_RT" H 3000 6026 50  0000 C CNN
+F 2 "My Footprints:SC39-11_RT_small" H 3000 4900 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11ewa.pdf" H 3000 5450 50  0001 C CNN
+	1    3000 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L sc_39_11_rt:SC39_11_RT U4
+U 1 1 5EC46DC7
+P 1600 5450
+F 0 "U4" H 1600 6117 50  0000 C CNN
+F 1 "SC39_11_RT" H 1600 6026 50  0000 C CNN
+F 2 "My Footprints:SC39-11_RT_small" H 1600 4900 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11ewa.pdf" H 1600 5450 50  0001 C CNN
+	1    1600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5ECB072C
+P 3150 7000
+F 0 "R2" V 3220 7046 50  0000 C TNN
+F 1 "330Ω" H 3220 6955 50  0000 C BNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3080 7000 50  0001 C CNN
+F 3 "~" H 3150 7000 50  0001 C CNN
+	1    3150 7000
+	0    1    1    0   
+$EndComp
+Text GLabel 6100 5900 2    50   Input ~ 0
+LED
+Text GLabel 6100 6000 2    50   Input ~ 0
+Seg_D
 $EndSCHEMATC
